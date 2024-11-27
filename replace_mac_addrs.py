@@ -16,6 +16,6 @@ with open(fpath1, 'rb') as fp:
 n = data.count(mac1)
 if n > 0:
     with open(fpath2, 'wb') as fp:
-        data = data.replace(mac1, mac2)
+        fp.write(data.replace(mac1, mac2))
 
 print(f'replaced {n} macs')
