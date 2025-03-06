@@ -1,7 +1,11 @@
 samples of various file types
 
+lena-avcc-data.h264        Lena, AVCC format data
+lena-avcc-extradata.h264   Lena, AVCC extradata header
+lena_annex.h264            Lena in h264 bitstream format from Annex B
 lena_annex.h264            Lena in h264 bitstream format from Annex B
                            from: https://stackoverflow.com/questions/24884827/possible-locations-for-sequence-picture-parameter-sets-for-h-264-stream
+
 hello-mono.exe             console helloworld, two classes in one mono-csc invocation
 hello-mono-square.exe      console helloworld, one class compiled to a dll, "linked" with mono-csc
 square-mono.dll            a Bar class with square method, compiled to dll with mono-csc
